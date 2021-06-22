@@ -22,6 +22,10 @@ namespace TestAzureDevOpsGitHub
             ShowWorkItemDetails(connection, workItemId).Wait();
             Console.WriteLine("commit #1");
             Console.WriteLine("commit #2");
+            Console.WriteLine("commit #3");
+            Console.WriteLine("commit #4");
+            Console.WriteLine("commit #5");
+
         }
         static private async Task ShowWorkItemDetails(VssConnection connection, int workItemId)
         {
